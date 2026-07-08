@@ -1,0 +1,53 @@
+db.employees.drop()
+
+db.employees.insertMany([
+{
+    name:"Ashutosh",
+    department:"Engineering",
+    city:"Noida",
+    salary:120000,
+    age:30
+},
+{
+    name:"Rahul",
+    department:"Engineering",
+    city:"Delhi",
+    salary:90000,
+    age:28
+},
+{
+    name:"Neha",
+    department:"HR",
+    city:"Delhi",
+    salary:70000,
+    age:26
+},
+{
+    name:"Priya",
+    department:"Engineering",
+    city:"Bangalore",
+    salary:150000,
+    age:35
+},
+{
+    name:"Amit",
+    department:"Sales",
+    city:"Mumbai",
+    salary:80000,
+    age:32
+},
+{
+    name:"Karan",
+    department:"Sales",
+    city:"Mumbai",
+    salary:75000,
+    age:29
+},
+{
+    name:"Pooja",
+    department:"HR",
+    city:"Noida",
+    salary:85000,
+    age:31
+}
+])
